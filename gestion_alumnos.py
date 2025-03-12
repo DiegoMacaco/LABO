@@ -11,7 +11,7 @@ def buscar_alumno(alumnos, nombre):
     return None
 
 if __name__ == "__main__":
-    ruta = "alumnos.json"
+    ruta = "LABO/alumnos.json"
     alumnos = cargar_alumnos(ruta)
     nombre_buscar = input("Ingrese el nombre del alumno a buscar: ")
 
